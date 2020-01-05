@@ -13,7 +13,7 @@
 ## Launch - how to run the project:
     * The simulator must first be downloaded.
     * than you need to add in the setting command, request to open a server and clint.
-        * Before running the simulator, run the project with the attached \ ceremony file text.
+    * Before running the simulator, run the project with the attached \ ceremony file text.
     * The compile command is - "‫‪g++‬‬ ‫‪-std=c++14‬‬ */*.cpp ‫‪*.cpp‬‬ ‫‪-Wall‬‬ ‫‪-Wextra‬‬ ‫‪-Wshadow‬‬ ‫‪-Wnon-virtual-dtor‬‬ ‫‪-pedantic‬‬ ‫‪-o‬‬
     a.out -pthread"
     * to operation "./a.out fly.txt "  (you can Choose a different txt file)
