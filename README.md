@@ -1,5 +1,5 @@
 # Flight-Simulator EX3
-    --Ex3 - flight simulator in Bar Ilan created by Shon Pozner--
+    **Ex3 - flight simulator in Bar Ilan created by Shon Pozner**
 
 ## The project's aim:
     Lexer and parser a text file that containing various commands for a flight simulator.
@@ -8,7 +8,7 @@
 ## Technologies:
     The project articles in language C++ ver14
     The project is optimized for working with the flight simulator- FlightGear
-    (link to downoad - ‫‪[‫‪Link]http://home.flightgear.org‬  )
+    (link to downoad - ‫‪[Link]http://home.flightgear.org‬  )
 
 ## Launch - how to run the project:
     * The simulator must first be downloaded.
@@ -18,7 +18,7 @@
     a.out -pthread"
     * to operation "./a.out fly.txt "  (you can Choose a different txt file)
     * After running the command -
-        Run the simulator Wait about 2 minutes for the simulator up and than you will see how the plane starts to fly
+    * Run the simulator Wait about 2 minutes for the simulator up and than you will see how the plane starts to fly
 
 
 
