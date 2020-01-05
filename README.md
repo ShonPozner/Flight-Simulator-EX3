@@ -72,7 +72,8 @@ The program recognizes the following commands:
    * If so then execute a command sequence one time
 
 
-### Archdiocesan class
+
+## Archdiocesan class
 
 ![Archdiocesan](https://user-images.githubusercontent.com/59409570/71785674-14cd6500-300b-11ea-8736-43fe69dbe9b1.JPG)
 
