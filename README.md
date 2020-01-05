@@ -22,6 +22,7 @@
 * The simulator must first be **downloaded** (again [link](http://home.flightgear.org)).
 * Than you need to add from **setting command**, request to open a server and Client.
 * copy this **commands** to the setting command:
+
       ```sh
      --telnet=socket,in,10,127.0.0.1,5402,tcp
      --generic=socket,out,10,127.0.0.1,5400,tcp,generic_small
