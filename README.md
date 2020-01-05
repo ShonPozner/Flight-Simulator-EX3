@@ -5,20 +5,20 @@
 
 * gethub [Linke](https://github.com/ShonPozner/Flight-Simulator-EX3)
 
-# The project's aim:
+## The project's aim:
 
 * **Lexer and parser** text file, that containing various commands for a flight simulator.
 * Transferring information from and to flight simulator using **server and client**.
 
-### Technologies:
+## Technologies:
 
 * The project articles in language **C++ ver14**
 * The project is optimized for working with the flight simulator- **FlightGear**
  [link to downoad](http://home.flightgear.org)
 
-### Launch - how to run the project:
+## Launch - how to run the project:
 
-##### Creat the simulator:
+#### Creat the simulator:
 * The simulator must first be **downloaded** (again [link](http://home.flightgear.org)).
 * Than you need to add from **setting command**, request to open a server and Client.
 * copy this **commands** to the setting command:
@@ -27,7 +27,7 @@
      --generic=socket,out,10,127.0.0.1,5400,tcp,generic_small
       ```
 
-##### Now is the time to run this project:
+#### Now is the time to run this project:
 * The **compile** command is -
     ```sh
     $ g++‬‬ ‫‪-std=c++14‬‬ */*.cpp ‫‪*.cpp‬‬ ‫‪-Wall‬‬ ‫‪-Wextra‬‬ ‫‪-Wshadow‬‬ ‫‪-Wnon-virtual-dtor‬‬ ‫‪-ped antic‬‬ ‫ ‪-o‬‬a.out-pthread"
@@ -40,15 +40,16 @@
 * And this is the right time to **start the simulator**
 * Click on the start and **let the fun begin** 
 
-### General explanation of the program:
-#### Program order:
+## General explanation of the program:
+### Program order:
 * The project start run the main which first defines **DATA** -
    * Data contains all maps that saved the differnet valyes at tun time
 * Than **LEXER** go on -
    * Lexer read a line by line and save evrey exprision at cell in the arry
 * Now **PARSER** time - 
    * Parser read command after command and execute the commad 
-#### Program commands:
+   
+### Program commands:
 The program recognizes the following commands:
 * **Print** - 
    * Prints expressions or variables.
@@ -72,5 +73,9 @@ The program recognizes the following commands:
 
 
 ### Archdiocesan class
+
+![Archdiocesan](https://user-images.githubusercontent.com/59409570/71785578-edc26380-3009-11ea-891e-b577938670cb.JPG)
+
+
 
 ‬
