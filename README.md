@@ -20,7 +20,7 @@
 
 ##### Creat the simulator:
 * The simulator must first be **downloaded** (again [link](http://home.flightgear.org)).
-* Than you need to add from **setting command**, request to open a server and clint.
+* Than you need to add from **setting command**, request to open a server and Client.
 * copy this **commands** to the setting command:
       ```sh
      --telnet=socket,in,10,127.0.0.1,5402,tcp
@@ -41,14 +41,34 @@
 * Click on the start and **let the fun begin** 
 
 ### General explanation of the program:
-
-* The project start run the main which first defines **DATA**
+#### Program order:
+* The project start run the main which first defines **DATA** -
    * Data contains all maps that saved the differnet valyes at tun time
-* Than **LEXER** go on
+* Than **LEXER** go on -
    * Lexer read a line by line and save evrey exprision at cell in the arry
 * Now **PARSER** time - 
    * Parser read command after command and execute the commad 
-
+#### Program commands:
+The program recognizes the following commands:
+* **Print** - 
+   * Prints expressions or variables.
+* **Sleep** -
+   * Stops the program activity for several milliseconds as the input you receive
+* **Define a variable**
+   * Define a variable initializes the value of the variable to 0 
+   * Checking the variable's relevance
+* **open Data Server** -
+   * Open a server 
+   * And waiting for connection to the simulator
+* **connect Control Client** -
+   * Creat a Client
+   * Sending commands to simulator
+* **while** -
+   * Checks whether the condition is met
+   * If so then execute a command sequence in the loop
+* **If** -
+   * Checks whether the condition is met
+   * If so then execute a command sequence one time
 
 
 ### Archdiocesan class
