@@ -1,5 +1,5 @@
 # Flight-Simulator EX3
-    **Ex3 - flight simulator in Bar Ilan created by Shon Pozner**
+    --Ex3 - flight simulator in Bar Ilan created by Shon Pozner--
 
 ## The project's aim:
     Lexer and parser a text file that containing various commands for a flight simulator.
