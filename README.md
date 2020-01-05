@@ -1,4 +1,5 @@
 # Flight-Simulator EX3
+![fly](https://user-images.githubusercontent.com/59409570/71785140-c4530900-3004-11ea-8c6d-ce46b3becf18.jpg)
 
 **Flight simulator - Ex3 -** Advanced Programming at Bar Ilan created by **Shon Pozner**
 
