@@ -74,8 +74,7 @@ The program recognizes the following commands:
 
 ### Archdiocesan class
 
-![Archdiocesan](https://user-images.githubusercontent.com/59409570/71785578-edc26380-3009-11ea-891e-b577938670cb.JPG)
-
+![Archdiocesan](https://user-images.githubusercontent.com/59409570/71785674-14cd6500-300b-11ea-8736-43fe69dbe9b1.JPG)
 
 
 ‬
