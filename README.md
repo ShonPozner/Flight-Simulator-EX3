@@ -40,14 +40,17 @@
 * And this is the right time to **start the simulator**
 * Click on the start and **let the fun begin** 
 
+### General explanation of the program:
+
+* The project start run the main which first defines **DATA**
+   * Data contains all maps that saved the differnet valyes at tun time
+* Than **LEXER** go on
+   * Lexer read a line by line and save evrey exprision at cell in the arry
+* Now **PARSER** time - 
+   * Parser read command after command and execute the commad 
+
+
+
 ### Archdiocesan class
-
-Markup : ```javascript
-* The project start run the main which first defines DATA
-   * DATA contains all maps that saved the differnet valyes at tun time
-         ```
-
-* The project start run the main which first defines DATA
-   * DATA contains all maps that saved the differnet valyes at tun time
 
 ‬
