@@ -43,5 +43,5 @@
 ### Archdiocesan class
 
 * The project start run the main which first defines DATA
-** DATA contains all maps that saved the differnet valyes at tun time
+ * DATA contains all maps that saved the differnet valyes at tun time
 ‬
