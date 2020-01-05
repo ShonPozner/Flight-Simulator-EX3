@@ -1,27 +1,42 @@
 # Flight-Simulator EX3
-    **Ex3 - flight simulator in Bar Ilan created by Shon Pozner**
 
-## The project's aim:
-    Lexer and parser a text file that containing various commands for a flight simulator.
-    And transferring information from and to the simulator using server and client.
+**Flight simulator - Ex3 -** Advanced Programming at Bar Ilan created by **Shon Pozner**
 
-## Technologies:
-    The project articles in language C++ ver14
-    The project is optimized for working with the flight simulator- FlightGear
-    (link to downoad - ‫‪[Link]http://home.flightgear.org‬  )
+* gethub [Linke](https://github.com/ShonPozner/Flight-Simulator-EX3)
 
-## Launch - how to run the project:
-    * The simulator must first be downloaded.
-    * than you need to add in the setting command, request to open a server and clint.
-    * Before running the simulator, run the project with the attached \ ceremony file text.
-    * The compile command is - "‫‪g++‬‬ ‫‪-std=c++14‬‬ */*.cpp ‫‪*.cpp‬‬ ‫‪-Wall‬‬ ‫‪-Wextra‬‬ ‫‪-Wshadow‬‬ ‫‪-Wnon-virtual-dtor‬‬ ‫‪-pedantic‬‬ ‫‪-o‬‬
-    a.out -pthread"
-    * to operation "./a.out fly.txt "  (you can Choose a different txt file)
-    * After running the command -
-    * Run the simulator Wait about 2 minutes for the simulator up and than you will see how the plane starts to fly
+# The project's aim:
 
+* **Lexer and parser** text file, that containing various commands for a flight simulator.
+* Transferring information from and to flight simulator using **server and client**.
 
+### Technologies:
 
+* The project articles in language **C++ ver14**
+* The project is optimized for working with the flight simulator- **FlightGear**
+ [link to downoad](http://home.flightgear.org)
 
+### Launch - how to run the project:
+
+##### Creat the simulator:
+* The simulator must first be **downloaded** (again [link](http://home.flightgear.org)).
+* Than you need to add from **setting command**, request to open a server and clint.
+* copy this **commands** to the setting command:
+ ```sh
+  --telnet=socket,in,10,127.0.0.1,5402,tcp
+  --generic=socket,out,10,127.0.0.1,5400,tcp,generic_small
+```
+
+##### Now is the time to run this project:
+* The **compile** command is -
+ ```sh
+$ g++‬‬ ‫‪-std=c++14‬‬ */*.cpp ‫‪*.cpp‬‬ ‫‪-Wall‬‬ ‫‪-Wextra‬‬ ‫‪-Wshadow‬‬ ‫‪-Wnon-virtual-dtor‬‬ ‫‪-ped antic‬‬ ‫ ‪-o‬‬a.out-pthread"
+````
+* To **run** the code -
+ ```sh
+$ ./a.out fly.txt  (you can Choose a different txt file)
+````
+* Now you see that the program is **waiting** for a cline
+* And this is the right time to **start the simulator**
+* Click on the start and **let the fun begin** 
 
 ‬
