@@ -40,4 +40,8 @@
 * And this is the right time to **start the simulator**
 * Click on the start and **let the fun begin** 
 
+### Archdiocesan class
+
+* The project start run the main which first defines DATA
+* * DATA contains all maps that saved the differnet valyes at tun time
 ‬
