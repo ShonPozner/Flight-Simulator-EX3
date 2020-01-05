@@ -21,10 +21,10 @@
 * The simulator must first be **downloaded** (again [link](http://home.flightgear.org)).
 * Than you need to add from **setting command**, request to open a server and clint.
 * copy this **commands** to the setting command:
- ```sh
-  --telnet=socket,in,10,127.0.0.1,5402,tcp
-  --generic=socket,out,10,127.0.0.1,5400,tcp,generic_small
-```
+   ```sh
+     --telnet=socket,in,10,127.0.0.1,5402,tcp
+     --generic=socket,out,10,127.0.0.1,5400,tcp,generic_small
+   ```
 
 ##### Now is the time to run this project:
 * The **compile** command is -
