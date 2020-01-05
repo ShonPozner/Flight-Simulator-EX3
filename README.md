@@ -30,11 +30,11 @@
 #### Now is the time to run this project:
 * The **compile** command is -
     ```sh
-    $ g++‬‬ ‫‪-std=c++14‬‬ */*.cpp ‫‪*.cpp‬‬ ‫‪-Wall‬‬ ‫‪-Wextra‬‬ ‫‪-Wshadow‬‬ ‫‪-Wnon-virtual-dtor‬‬ ‫‪-ped antic‬‬ ‫ ‪-o‬‬a.out-pthread"
+    $ g++‬‬ ‫‪-std=c++14‬‬ */*.cpp ‫‪*.cpp‬‬ ‫‪-Wall‬‬ ‫‪-Wextra‬‬ ‫‪-Wshadow‬‬ ‫‪-Wnon-virtual-dtor‬‬ ‫‪-ped antic‬‬ ‫ ‪-o‬‬a.out-pthread
     ````
 * To **run** the code -
     ```sh
-    $ ./a.out fly.txt  (you can Choose a different txt file)
+    $ ./a.out fly.txt  //(you can Choose a different txt file)
     ````
 * Now you see that the program is **waiting** for a cline
 * And this is the right time to **start the simulator**
