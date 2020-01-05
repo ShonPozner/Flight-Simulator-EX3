@@ -21,12 +21,6 @@ void start(int argc, char *argv[]) {
     LaxerAndParser *lax = new LaxerAndParser(fileName, data, client, server);
     lax->getLexer();
     lax->parser();
-    /**
-    delete(data);
-    delete(server);
-    delete(client);
-    delete(lax);
-     */
 
   } else {
     cout<<"File name not received, please try again"<<endl;
