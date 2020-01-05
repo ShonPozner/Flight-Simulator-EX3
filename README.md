@@ -25,7 +25,6 @@
     ```sh
      --telnet=socket,in,10,127.0.0.1,5402,tcp
      --generic=socket,out,10,127.0.0.1,5400,tcp,generic_small
-      ```
 
 #### Now is the time to run this project:
 * The **compile** command is -
@@ -58,13 +57,13 @@ The program recognizes the following commands:
 * **Define a variable**
    * Define a variable initializes the value of the variable to 0 
    * Checking the variable's relevance
-* **open Data Server** -
+* **Open Data Server** -
    * Open a server 
    * And waiting for connection to the simulator
-* **connect Control Client** -
+* **Connect Control Client** -
    * Creat a Client
    * Sending commands to simulator
-* **while** -
+* **While** -
    * Checks whether the condition is met
    * If so then execute a command sequence in the loop
 * **If** -
