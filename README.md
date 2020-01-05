@@ -3,7 +3,7 @@
 
 **Flight simulator - Ex3 -** Advanced Programming at Bar Ilan created by **Shon Pozner**
 
-* gethub [Linke](https://github.com/ShonPozner/Flight-Simulator-EX3)
+* **gethub** [Linke](https://github.com/ShonPozner/Flight-Simulator-EX3)
 
 ## The project's aim:
 
